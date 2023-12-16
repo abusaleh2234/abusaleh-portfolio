@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #100028;
+}
+.head{
+    font-family: 'Varela Round', sans-serif;
+}
+.cardp{
+    box-shadow: #00bfe7 0px 30px 100px -12px inset, #00bfe7 0px 18px 60px -18px inset;
+}
+
+.inp{
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contuctbg{
+    backdrop-filter: blur(15px);
+}
+.active {
+    color: #00bfe7;
+}
