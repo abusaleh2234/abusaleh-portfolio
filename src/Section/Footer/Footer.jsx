@@ -14,10 +14,10 @@ const Footer = () => {
                 <div className="">
                     <h3 className="text-3xl text-[#00bde5] font-bold ">Links</h3>
                     <ul className="text-white ">
-                        <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={250} className="cursor-pointer hover:text-[#00bde5]">Home</Link></li>
-                        <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={250} className="cursor-pointer hover:text-[#00bde5]">About</Link></li>
-                        <li><Link activeClass="active" to="skills" spy={true} smooth={true} duration={250} className="cursor-pointer hover:text-[#00bde5]">Skills</Link></li>
-                        <li><Link activeClass="active" to="projects" spy={true} smooth={true} duration={250} className="cursor-pointer hover:text-[#00bde5]">Projects</Link></li>
+                        <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={1500} className="cursor-pointer hover:text-[#00bde5]">Home</Link></li>
+                        <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={1000} className="cursor-pointer hover:text-[#00bde5]">About</Link></li>
+                        <li><Link activeClass="active" to="skills" spy={true} smooth={true} duration={500} className="cursor-pointer hover:text-[#00bde5]">Skills</Link></li>
+                        <li><Link activeClass="active" to="projects" spy={true} smooth={true} duration={350} className="cursor-pointer hover:text-[#00bde5]">Projects</Link></li>
                         <li><Link activeClass="contuct" to="contuct" spy={true} smooth={true} duration={250} className="cursor-pointer hover:text-[#00bde5]">Contuct</Link></li>
                     </ul>
                 </div>
@@ -25,8 +25,8 @@ const Footer = () => {
                     <h3 className="text-3xl text-[#00bde5] font-bold">Adresss</h3>
                     <ul className="text-white">
                         <li className="hover:text-[#00bde5]"><FaLocationDot className="inline"/>  Dhaka, Bangladesh</li>
-                        <li className="hover:text-[#00bde5]"><a href="tel:+880 01719048513"><FaPhone className="inline" />  +880 17********</a></li>
-                        <li className="hover:text-[#00bde5]"><a href="mailto: abusalehmd65@gmail.com"><IoMdMail className="inline"/>  abusalehmd65@gmail.com</a></li>
+                        <li className="hover:text-[#00bde5]"><a href="tel:+880 01719048513"><FaPhone className="inline" />  +880 01719048513</a></li>
+                        <li className="hover:text-[#00bde5]"><a href="mailto: abusalehmd65@gmail.com"><IoMdMail className="inline"/>  abusaleh.kabiraj25@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
