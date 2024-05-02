@@ -17,7 +17,7 @@ const About = () => {
 
 
             </div>
-            <button className="btn">See More About Me</button>
+            <button className="px-8 py-1 text-lg  text-white btn rounded-none border-none bg-[#00bfe7] hover:bg-[#1372cb]">See More About Me</button>
         </div>
     );
 };

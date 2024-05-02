@@ -25,7 +25,7 @@ const Footer = () => {
                     <h3 className="text-3xl text-[#00bde5] font-bold">Adresss</h3>
                     <ul className="text-white">
                         <li className="hover:text-[#00bde5]"><FaLocationDot className="inline"/>  Dhaka, Bangladesh</li>
-                        <li className="hover:text-[#00bde5]"><a href="tel:+880 017XXXXXXXX"><FaPhone className="inline"/>  +880 17********</a></li>
+                        <li className="hover:text-[#00bde5]"><a href="tel:+880 01719048513"><FaPhone className="inline" />  +880 17********</a></li>
                         <li className="hover:text-[#00bde5]"><a href="mailto: abusalehmd65@gmail.com"><IoMdMail className="inline"/>  abusalehmd65@gmail.com</a></li>
                     </ul>
                 </div>
