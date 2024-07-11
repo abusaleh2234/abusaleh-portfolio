@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8 px-4">
                 <div className="">
                     <img className="w-40 pb-4" src={logo} alt="" />
-                    <p className="text-white">When I am working on a problem I never think about beauty but when I have finished, if the solution is not beautiful, I know it is wrong</p>
+                    <p className="text-white">When I am working on a problem I never think about beauty but when I have finished, if the solution is not beautiful, I know it is wrong.</p>
                 </div>
                 <div className="">
                     <h3 className="text-3xl text-[#00bde5] font-bold ">Links</h3>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="">
-                    <h3 className="text-3xl text-[#00bde5] font-bold">Adresss</h3>
+                    <h3 className="text-3xl text-[#00bde5] font-bold">Address</h3>
                     <ul className="text-white">
                         <li className="hover:text-[#00bde5]"><FaLocationDot className="inline"/>  Dhaka, Bangladesh</li>
                         <li className="hover:text-[#00bde5]"><a href="tel:+880 01719048513"><FaPhone className="inline" />  +880 01719048513</a></li>
