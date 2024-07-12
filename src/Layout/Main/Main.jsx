@@ -13,7 +13,7 @@ import Footer from "../../Section/Footer/Footer";
 
 const Main = () => {
     return (
-        <div className="px-3 md:px-0">
+        <div className="px-3 xl:px-0">
             <Home></Home>
             <Container>
                 <About></About>

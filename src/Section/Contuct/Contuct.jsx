@@ -18,8 +18,8 @@ const Contuct = () => {
           e.target.reset()
       };
     return (
-        <div id="contuct" className="bg-[#FFFFFF1A] contuctbg rounded-xl md:flex items-center gap-6 p-8">
-            <div className="md:w-1/2">
+        <div id="contuct" className="bg-[#FFFFFF1A] contuctbg rounded-xl lg:flex items-center gap-6 p-8 mx-8 xl:mx-0">
+            <div className="lg:w-1/2">
                 <h3 className="text-2xl font-semibold text-center text-white py-5">Get In Touch</h3>
                 <form ref={form} onSubmit={sendEmail} className="space-y-2">
                     <div className="form-control">
@@ -39,8 +39,8 @@ const Contuct = () => {
                 </form>
 
             </div>
-            <div className="md:w-1/2 hidden md:block">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d542.6643907916415!2d90.37241016064095!3d23.797384943930165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702748057822!5m2!1sen!2sbd" className="min-w-full min-h-full" width="450" height="500" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div className="lg:w-1/2 lg:pt-0 md:pt-10 hidden md:block ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d542.6643907916415!2d90.37241016064095!3d23.797384943930165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702748057822!5m2!1sen!2sbd" className="min-w-full min-h-full lg:w-[450] lg:h-[500]" width="450" height="500" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     );

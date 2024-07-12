@@ -1,5 +1,6 @@
 import porfilepic from "../../assets/profile-pic (4).png"
 import  "../../../src/index.css"
+import { Link } from "react-scroll";
 const Banner = () => {
     return (
         <div className="">
@@ -11,11 +12,12 @@ const Banner = () => {
                     <h2>React Developer</h2>
                     <h2>MERN stack Developer</h2> */}
                     <p className="text-[#827e88]">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</p>
-                    <button className="px-10 py-1 text-xl  text-white btn rounded-none border-none bg-[#00bfe7] hover:bg-[#1372cb]">Projects</button>
+                    {/* <button className="px-10 py-1 text-xl  text-white btn rounded-none border-none bg-[#00bfe7] hover:bg-[#1372cb]">Projects</button> */}
+                    <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000} className="cursor-pointer px-10 py-1 text-xl  text-white btn rounded-none border-none bg-[#00bfe7] hover:bg-[#1372cb]">Projects</Link>
                     {/* <button style={{backgroundColor: '#3a0ca3',
   boxShadow: 'inset 15px 15px 40px #00bfe7, inset -120px -10px 40px #00bfe7'}} className="focus:outline-none focus:shadow-outline-purple active:bg-purple-900 transition duration-150 ease-in-out">projects</button> */}
                 </div>
-                <div className="">
+                <div className="py-5 md:py-0">
                     <img className="md:w-11/12 w-8/12 mx-auto" src={porfilepic} alt="" />
                 </div>
             </div>

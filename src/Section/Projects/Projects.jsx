@@ -5,7 +5,7 @@ import brandshop from "../../assets/brand-shop.png"
 import "../../../src/index.css"
 const Projects = () => {
     return (
-        <div id="projects" className="py-12">
+        <div id="projects" className="py-12 ">
             <h2 className="uppercase text-4xl font-bold text-[#00bfe7] text-center">Projects</h2>
             <div className=" pt-5 space-y-16">
                 <div className="rounded-lg md:flex">
@@ -26,7 +26,7 @@ const Projects = () => {
                                 <li>&#9755; Fully Responsive</li>
                             </ul>
                             <div className="flex flex-col justify-center gap-1">
-                                <a href="https://github.com/abusaleh2234/unifoodhub-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Clint</a>
+                                <a href="https://github.com/abusaleh2234/unifoodhub-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Client</a>
                                 <a href="https://github.com/abusaleh2234/unifoodhub-server" target="blank" className="  btn btn-outline text-[#5ad5ee]">Server</a>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                         <p className="font-bold text-[#6c757d] ">Features:</p>
                         <div className="flex items-center justify-between">
                             <div className="flex flex-col justify-center gap-1">
-                                <a href="https://github.com/abusaleh2234/JobDraft-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Clint</a>
+                                <a href="https://github.com/abusaleh2234/JobDraft-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Client</a>
                                 <a href="https://github.com/abusaleh2234/JobDraft-server" target="blank" className="  btn btn-outline text-[#5ad5ee]">Server</a>
                             </div>
                             <ul className="text-[#6c757d]  pl-4">
@@ -74,7 +74,7 @@ const Projects = () => {
                                 <li>&#9755; Fully Responsive</li>
                             </ul>
                             <div className="flex flex-col justify-center gap-1">
-                                <a href="https://github.com/abusaleh2234/brand-shop-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Clint</a>
+                                <a href="https://github.com/abusaleh2234/brand-shop-client" target="blank" className="  btn btn-outline text-[#5ad5ee]">Client</a>
                                 <a href="https://github.com/abusaleh2234/brand-shop-server" target="blank" className="  btn btn-outline text-[#5ad5ee]">Server</a>
                             </div>
                         </div>

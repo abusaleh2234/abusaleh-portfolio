@@ -2,7 +2,7 @@
 const Skills = () => {
     return (
 
-        <div id="skills" className=" p-10 space-y-4">
+        <div id="skills" className="p-10 space-y-4">
             <h2 className="uppercase text-4xl font-bold text-[#00bfe7] text-center">Skills</h2>
             <h2 className="uppercase text-2xl font-bold text-[#00bfe7] text-center">Front-End</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -79,7 +79,7 @@ const Skills = () => {
                 </div>
             </div>
             <h2 className="uppercase text-2xl font-bold text-[#00bfe7] text-center p-4">Tools</h2>
-            <div className=" flex justify-center items-center gap-3">
+            <div className=" flex flex-wrap justify-center items-center gap-3">
                 <img className="w-16" src="https://skillicons.dev/icons?i=firebase" alt="firebase-icon" />
                 <img className="w-16" src="https://skillicons.dev/icons?i=vercel" alt="vercel-icon" />
                 <img className="w-16" src="https://skillicons.dev/icons?i=figma" alt="figma-icon" />
@@ -88,7 +88,6 @@ const Skills = () => {
                 <img className="w-16" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" alt="vscode-icon" />
             </div>
         </div>
-
     );
 };
 

@@ -11,11 +11,11 @@ const Navbar = () => {
         <li><Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000} className="cursor-pointer px-3">Projects</Link></li>
         <li><Link activeClass="active" to="contuct" spy={true} smooth={true} duration={1500} className="cursor-pointer px-3">Contuct</Link></li>
         <li>
-            <a href={pdf} className="px-5 py-1  text-white btn rounded-lg border-none bg-[#00bfe7] hover:bg-[#1372cb]" download>Resume</a>
+            <a href={pdf} className="px-5 py-1 text-white btn rounded-lg border-none bg-[#00bfe7] hover:bg-[#1372cb]" download>Resume</a>
         </li>
     </>
     return (
-        <nav className="bg-[#08658c]  border rounded-lg border-[#00bfe7] dark:bg-gray-900"> 
+        <nav className="bg-[#08658c]  border rounded-lg border-[#00bfe7] dark:bg-gray-900">
         {/* fixed w-10/12 z-50 */}
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -38,7 +38,6 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-
     );
 };
 
