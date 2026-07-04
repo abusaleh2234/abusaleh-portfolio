@@ -4,7 +4,8 @@ import { Link } from "react-scroll";
 const Banner = () => {
     return (
         <div className="">
-            <div className="md:pt-12 pt-32 md:flex justify-around items-center gap-6 min-h-screen bg-gradient-to-t from-[#100028] via-[#100028] to-[#00bde5] md:px-16">
+            <div className="md:pt-16 pt-32 flex flex-col-reverse md:flex-row justify-around items-center gap-6 min-h-screen bg-gradient-to-t from-[#100028] via-[#100028] to-[#00bde5] md:px-16">
+                
                 <div className="space-y-3 px-4 md:px-0">
                     <h1 className="md:text-6xl text-4xl font-bold text-white head">HEY, I&apos;m Abu Saleh</h1>
                     <h2 className="md:text-4xl text-3xl font-semibold text-[#00bfe7]">Web Developer </h2>

@@ -6,13 +6,31 @@ import Container from "../../component/Container/Container";
 
 const Home = () => {
     return (
+        // <div id="home">
+        //     <Container>
+        //         <div className="relative">
+        //             <div className="absolute  w-full p-5">
+        //                 <Navbar></Navbar>
+        //             </div>
+        //             <Banner></Banner>
+        //         </div>
+
+        //     </Container>
+        // </div>
         <div id="home">
-            <Container>
-                <div className="relative">
-                    <div className="absolute w-full p-5">
-                        <Navbar></Navbar>
+            {/* Fixed Navbar */}
+            <div className="fixed top-0 left-0 w-full z-50">
+                <Container>
+                    <div className="px-5 py-5">
+                        <Navbar />
                     </div>
-                    <Banner></Banner>
+                </Container>
+            </div>
+
+            {/* Banner */}
+            <Container>
+                <div className="">
+                    <Banner />
                 </div>
                 
             </Container>

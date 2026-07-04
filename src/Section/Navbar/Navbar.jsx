@@ -15,12 +15,13 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <nav className="bg-[#08658c]  border rounded-lg border-[#00bfe7] dark:bg-gray-900">
+        <nav className="w-full bg-[#08658c]  border rounded-lg border-[#00bfe7] dark:bg-gray-900">
         {/* fixed w-10/12 z-50 */}
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={logo} className="h-8" alt="Logo" />
                 </a>
+                {/* mobile devices */}
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -31,6 +32,7 @@ const Navbar = () => {
                         {menu}
                     </ul>
                 </div>
+                {/* normal */}
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul className="font-medium flex items-center  p-4 md:p-0 text-white ">
                         {menu}
