@@ -12,7 +12,7 @@ const Skills = () => {
                             <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" alt="" />
                             <h3 className="text-xl font-medium text-white">HTML 5</h3>
                         </div>
-                        <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "90%" }}>95%</div>
+                        <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "95%" }}>95%</div>
                     </div>
 
                 </div>
@@ -21,33 +21,40 @@ const Skills = () => {
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" alt="" />
                         <h3 className="text-xl font-medium text-white">CSS 3</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "85%" }}>85%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "95%" }}>95%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
                     <div className="p-2 flex gap-2 items-center">
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bootstrap.svg" alt="" />
                         <h3 className="text-xl font-medium text-white">Bootstrap</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "75%" }}>75%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "80%" }}>80%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
                     <div className="p-2 flex gap-2 items-center">
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" alt="" />
                         <h3 className="text-xl font-medium text-white">Tailwindcss</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "85%" }}>85%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "90%" }}>90%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
                     <div className="p-2 flex gap-2 items-center">
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" alt="" />
                         <h3 className="text-xl font-medium text-white">JavaScript</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "60%" }}>60%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "85%" }}>85%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
                     <div className="p-2 flex gap-2 items-center">
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" alt="" />
                         <h3 className="text-xl font-medium text-white">React JS</h3>
+                    </div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "85%" }}>85%</div>
+                </div>
+                <div className=" bg-[#22223b] rounded-t-lg">
+                    <div className="p-2 flex gap-2 items-center">
+                        <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" alt="" />
+                        <h3 className="text-xl font-medium text-white">TypeScript</h3>
                     </div>
                     <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "75%" }}>75%</div>
                 </div>
@@ -61,21 +68,35 @@ const Skills = () => {
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg" alt="" />
                         <h3 className="text-xl font-semibold text-white">Express</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "60%" }}>60%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "75%" }}>75%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
-                <div className="p-2 flex gap-2 items-center">
+                    <div className="p-2 flex gap-2 items-center">
                         <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" alt="" />
                         <h3 className="text-xl font-semibold text-white">MongoDB</h3>
+                    </div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "75%" }}>75%</div>
+                </div>
+                <div className=" bg-[#22223b] rounded-t-lg">
+                    <div className="p-2 flex gap-2 items-center">
+                        <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" alt="" />
+                        <h3 className="text-xl font-semibold text-white">Node.js</h3>
+                    </div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "75%" }}>75%</div>
+                </div>
+                <div className=" bg-[#22223b] rounded-t-lg">
+                    <div className="p-2 flex gap-2 items-center">
+                        <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/PostgreSQL-Dark.svg" alt="" />
+                        <h3 className="text-xl font-semibold text-white">PostgreSQL</h3>
                     </div>
                     <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "70%" }}>70%</div>
                 </div>
                 <div className=" bg-[#22223b] rounded-t-lg">
-                <div className="p-2 flex gap-2 items-center">
-                        <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" alt="" />
-                        <h3 className="text-xl font-semibold text-white">Node.js</h3>
+                    <div className="p-2 flex gap-2 items-center">
+                        <img className="w-8" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Prisma.svg" alt="" />
+                        <h3 className="text-xl font-semibold text-white">Prisma</h3>
                     </div>
-                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "40%" }}>40%</div>
+                    <div className="h-3 text-center bg-[#48cae4] text-[12px] leading-none font-bold" style={{ width: "65%" }}>65%</div>
                 </div>
             </div>
             <h2 className="uppercase text-2xl font-bold text-[#00bfe7] text-center p-4">Tools</h2>

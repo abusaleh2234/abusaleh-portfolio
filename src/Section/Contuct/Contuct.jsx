@@ -18,7 +18,7 @@ const Contuct = () => {
           e.target.reset()
       };
     return (
-        <div id="contuct" className="bg-[#FFFFFF1A] contuctbg rounded-xl lg:flex items-center gap-6 p-8 mx-8 xl:mx-0">
+        <div id="contuct" className="bg-[#FFFFFF1A] contuctbg rounded-xl lg:flex items-center gap-6 p-4 md:8 mx-8 xl:mx-0">
             <div className="lg:w-1/2">
                 <h3 className="text-2xl font-semibold text-center text-white py-5">Get In Touch</h3>
                 <form ref={form} onSubmit={sendEmail} className="space-y-2">

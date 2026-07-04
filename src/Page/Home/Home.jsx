@@ -19,7 +19,7 @@ const Home = () => {
         // </div>
         <div id="home">
             {/* Fixed Navbar */}
-            <div className="fixed top-0 left-0 w-full z-50">
+            <div className="fixed top-0 left-0 w-full z-10">
                 <Container>
                     <div className="px-5 py-5">
                         <Navbar />

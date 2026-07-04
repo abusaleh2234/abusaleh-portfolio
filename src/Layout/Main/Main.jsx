@@ -22,7 +22,7 @@ const Main = () => {
             </Container>
             <div className="relative bg-fixed bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${bg})` }}>
                 <div className="absolute bg-black h-full w-full bg-opacity-50 top-0 left-0"></div>
-                <div className="relative z-50">
+                <div className="relative z-90">
                     <Container>
                         <HaveProjects></HaveProjects>
                     </Container>
