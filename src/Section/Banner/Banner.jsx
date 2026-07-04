@@ -1,11 +1,11 @@
 import porfilepic from "../../assets/profile-pic (4).png"
-import  "../../../src/index.css"
+import "../../../src/index.css"
 import { Link } from "react-scroll";
 const Banner = () => {
     return (
         <div className="">
             <div className="md:pt-16 pt-32 flex flex-col-reverse md:flex-row justify-around items-center gap-6 min-h-screen bg-gradient-to-t from-[#100028] via-[#100028] to-[#00bde5] md:px-16">
-                
+
                 <div className="space-y-3 px-4 md:px-0">
                     <h1 className="md:text-6xl text-4xl font-bold text-white head">HEY, I&apos;m Abu Saleh</h1>
                     <h2 className="md:text-4xl text-3xl font-semibold text-[#00bfe7]">Web Developer </h2>
@@ -18,8 +18,16 @@ const Banner = () => {
                     {/* <button style={{backgroundColor: '#3a0ca3',
   boxShadow: 'inset 15px 15px 40px #00bfe7, inset -120px -10px 40px #00bfe7'}} className="focus:outline-none focus:shadow-outline-purple active:bg-purple-900 transition duration-150 ease-in-out">projects</button> */}
                 </div>
-                <div className="py-5 md:py-0">
-                    <img className="md:w-11/12 w-8/12 mx-auto" src={porfilepic} alt="" />
+                <div className="py-5 md:py-0 ">
+                    <img className="md:w-11/12 w-8/12 mx-auto group
+    rounded-full
+    backdrop-blur-lg
+    text-center
+    transition-all
+    duration-300
+    hover:-translate-y-2
+    hover:border-cyan-400
+    hover:shadow-[0_0_35px_rgba(0,191,231,.4)]" src={porfilepic} alt="" />
                 </div>
             </div>
         </div>
